@@ -1,7 +1,7 @@
 {% load staticfiles %}
 <html>
     <head>
-        <title>Bruno & Gisseli</title>
+        <title>Blog Bruno Favalli</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -10,8 +10,8 @@
     <body>
         <div class="page-header">
             <a href="{% url "blog.views.post_new" %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-            <h1><a href="/">Bruno & Gisseli</a></h1>
-            <img src="{{ STATIC_ROOT }}static/brino.jpg" width="280px" height="180px">
+            <h1><a href="/">Bruno Favalli</a></h1>
+            <img src="{{ STATIC_ROOT }}static/br.jpg" class="img-circle" >
         </div>
         <div class="content container">
             <div class="row">
@@ -23,4 +23,3 @@
         </div>
     </body>
 </html>
-
